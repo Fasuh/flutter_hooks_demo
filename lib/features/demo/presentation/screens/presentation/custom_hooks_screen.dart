@@ -13,7 +13,7 @@ class CustomHooksScreen extends HookWidget with NavigatedScreen {
 
   @override
   Widget build(BuildContext context) {
-    final bloc = useCubit(() => TestBloc(), ['key']);
+    final bloc = useCubit(() => TestBloc(), []);
 
     return Scaffold(
       body: SizedBox(
